@@ -13,11 +13,15 @@ section .text
 _main:
     NOP
     NOP
+    MOV EAX, 4
+    MOV ECX, 4
+    CMP EAX,ECX
+    JE <ADDRESS>
     NOP
     NOP
-    NOP
-    NOP
-    NOP
+    PUSH 0x41424344
+    MOV EAX,[ESP]
+    POP EBX
     MOV EAX, 41424344h ; ABCD
     MOV BX, 4141h
     MOV CH, 41h

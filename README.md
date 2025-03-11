@@ -19,6 +19,9 @@ _main:
     NOP
     NOP
     MOV EAX, 41424344h ; ABCD
+    MOV BX, 4141h
+    MOV CH, 41h
+    MOV DL, 41h
 ```
 
 ### Object file

@@ -46,7 +46,7 @@ objdump -d code.obj
 
 ---
 
-## Resourcers
+## Resources
 
 - [Nasm](https://www.nasm.us/)
 - [Objdump](https://www.mingw-w64.org/source/)

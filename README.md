@@ -43,3 +43,11 @@ objdump -d code.obj
 ```
 
 > AT&T Syntax
+
+---
+
+## Resourcers
+
+- [Nasm](https://www.nasm.us/)
+- [Objdump](https://www.mingw-w64.org/source/)
+- [Golinker](http://www.godevtool.com)
